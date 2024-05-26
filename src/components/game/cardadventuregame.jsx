@@ -12,7 +12,7 @@ const CardAdventureGame = () => {
     const [showConfetti, setShowConfetti] = useState(false);
     const { width, height } = useWindowSize();
     const navigate = useNavigate();
-    const safePoints = [17, 18, 20, 21, 22, 24, 27, 28, 29, 30]; // Definir safePoints
+    const safePoints = [17, 18, 20, 22, 24, 27, 28, 29, 30]; // Definir safePoints
 
   const points = {
     1: {
@@ -188,7 +188,7 @@ const CardAdventureGame = () => {
 
 
   useEffect(() => {
-    const safePoints = [17, 18, 20, 21, 22, 24, 27, 28, 29, 30]; // Definir safePoints
+    const safePoints = [17, 18, 20, 22, 24, 27, 28, 29, 30]; // Definir safePoints
     if (safePoints.includes(currentPoint)) {
         setShowConfetti(true);
     } else {
