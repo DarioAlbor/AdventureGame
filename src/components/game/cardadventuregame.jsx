@@ -12,7 +12,7 @@ const CardAdventureGame = () => {
     const [showConfetti, setShowConfetti] = useState(false);
     const { width, height } = useWindowSize();
     const navigate = useNavigate();
-    const safePoints = [17, 18, 20, 22, 24, 27, 28, 29, 30]; // Definir safePoints
+    const safePoints = [17, 18, 21, 22, 24, 27, 28, 30]; // Definir safePoints
 
   const points = {
     1: {
@@ -137,58 +137,58 @@ const CardAdventureGame = () => {
       options: [],
     },
     20: {
-      text: "Durante la noche, ven luces a lo lejos y deciden investigar. Resulta ser un equipo de rescate que había visto el humo de la fogata. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
+      text: "La fogata se sale de control mientras duermen y provoca un incendio en el refugio. Se quedan atrapados en el fuego y no logran escapar. ¡Su aventura termina aquí de manera trágica!",
       options: [],
     },
     21: {
-      text: "Sin la protección de la fogata, durante la noche un grupo de lobos se acerca al campamento y los ataca. No logran sobrevivir al ataque. ¡Su aventura termina aquí de manera trágica!",
+      text: "Duermen profundamente sin el peligro de un incendio. Al amanecer, continúan explorando el bosque y encuentran una cabaña abandonada con suministros de  emergencia y una radio. Utilizan la radio para pedir ayuda y son rescatados. ¡Su aventura termina aquí de manera segura!",
       options: [],
     },
     22: {
-      text: "Mantienen una vigilancia durante la noche y evitan cualquier peligro. Al amanecer, ven un helicóptero de rescate en la distancia y logran llamar su atención. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
+      text: "Su vigilancia les permite detectar a tiempo la presencia de un grupo de excursionistas que pasan cerca de su refugio. Le hacen señales y los ayudan a salir del bosque. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
       options: [],
     },
     23: {
-      text: "Durante la noche, un grupo de depredadores se acerca y, al estar todos dormidos profundamente, no logran reaccionar a tiempo. Lamentablemente, no logran sobrevivir. ¡Su aventura termina aquí de manera trágica!",
+      text: "Mientras duermen profundamente, una tormenta repentina causa que su refugio colapse, dejándolos expuestos a los elementos. Se despiertan empapados y con hipotermia. Sin ayuda inmediata, sus condiciones empeoran rápidamente y no logran sobrevivir. ¡Su aventura termina aquí de manera trágica!",
       options: [],
     },
     24: {
-      text: "Mientras descansan junto a la cascada, ven un helicóptero de rescate sobrevolando la zona. Logran hacer señales y son rescatados. ¡Su aventura termina aquí de manera segura!",
+      text: "El sonido relajante del agua les ayuda a conciliar el sueño. Al despertar, escuchan voces humanas y descubren un grupo de excursionistas que han venido a la cascada. Les ofrecen comida, agua y los llevan de regreso a la civilización. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
       options: [],
     },
     25: {
-      text: "Mientras exploran los alrededores de la laguna, se encuentran con un grupo de excursionistas que los ayudan y llaman a los rescatistas. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
+      text: "Mientras exploran, se adentran demasiado en el bosque y pierden de vista la laguna. La densa vegetación y el terreno irregular los confunden, y terminan perdiéndose aún más en el bosque. Desorientados y sin recursos, no logran encontrar el camino de regreso. ¡Lamentablemente, su aventura termina aquí de manera trágica!",
       options: [],
     },
     26: {
-      text: "Mientras descansan junto al lago, beben el agua sin purificarla y comienzan a sentirse muy enfermos debido a una bacteria en el agua. No logran sobrevivir. ¡Su aventura termina aquí de manera trágica!",
+      text: "Sin darse cuenta, el agua del lago está contaminada con bacterias dañinas. Después de beber, comienzan a sentirte extremadamente enfermos y débiles. Sin acceso a atención médica, sus condiciones empeoran rápidamente. ¡Lamentablemente, su aventura termina aquí de manera trágica!",
       options: [],
     },
     27: {
-      text: "Mientras exploran los alrededores del lago, encuentran una cabaña de guardabosques. El guardabosques los ayuda y llama a los rescatistas. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
+      text: "Encuentran un pequeño muelle con un bote. Deciden utilizar el bote para cruzar el lago y explorar la otra orilla. Allí, encuentran un grupo de campistas que los ayudan y los llevan a la civilización. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
       options: [],
     },
     28: {
-      text: "Deciden probar las bayas y resulta que son venenosas. No logran sobrevivir. ¡Su aventura termina aquí de manera trágica!",
+      text: "Las bayas resultan ser comestibles y les proporcionan la energía que necesitan. Siguen explorando el bosque y finalmente encuentran una cabaña abandonada con suministros de emergencia. Utilizan una radio para pedir ayuda y son rescatados. ¡Su aventura termina aquí de manera segura!",
       options: [],
     },
     29: {
-      text: "Encuentran un árbol con frutos comestibles y logran reunir suficiente comida para todos. Con energía renovada, continúan su búsqueda de ayuda y finalmente encuentran un grupo de excursionistas que los ayudan. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
+      text: "No logran encontrar más alimentos y la falta de energía los debilita. Sin fuerzas para continuar, se desorientan y se pierden aún más en el bosque. Eventualmente, no logran sobrevivir. ¡Su aventura termina aquí de manera trágica!",
       options: [],
     },
     30: {
-      text: "Esperan pacientemente y logran atrapar al conejo. Esto les proporciona suficiente alimento para mantenerse hasta que sean rescatados. ¡Han sido rescatados y su aventura termina aquí de manera segura!",
+      text: "Tu paciencia da frutos y logras atrapar al conejo. Les proporciona suficiente alimento para recuperar sus fuerzas. Al día siguiente, continúan explorando y encuentran un grupo de excursionistas que los ayudan y los llevan a un lugar seguro. ¡Han sido rescatados y su aventura termina aquí!",
       options: [],
     },
     31: {
-      text: "Intentan atrapar al conejo con sus propias manos, pero el conejo los muerde y resulta ser portador de una enfermedad. No logran sobrevivir. ¡Su aventura termina aquí de manera trágica!",
+      text: "El conejo es más rápido que ustedes y escapa. En su intento por atraparlo, se lesionan y pierden más energía de la que pueden permitirse. La herida se infecta y, sin tratamiento adecuado, su estado empeora rápidamente. ¡Lamentablemente, su aventura termina aquí!",
       options: [],
-    },
+    },    
   };
 
 
   useEffect(() => {
-    const safePoints = [17, 18, 20, 22, 24, 27, 28, 29, 30]; // Definir safePoints
+    const safePoints = [17, 18, 21, 22, 24, 27, 28, 30]; // Definir safePoints
     if (safePoints.includes(currentPoint)) {
         setShowConfetti(true);
     } else {
