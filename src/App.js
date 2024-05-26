@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/helpgame" element={<CardHelpGame />} />
+          <Route path="helpgame" element={<CardHelpGame />} />
         </Routes>
         <Footer />
       </div>
