@@ -258,24 +258,11 @@ const NAV_ITEMS = [
     label: 'Ayuda',
     children: [
       {
-        label: '¿Como puedo empezar a jugar?',
-        subLabel: 'Breve explicación sobre cómo se juega.',
-        href: '#',
-      },
-      {
         label: 'No sé jugar',
         subLabel: 'Tutorial explicativo sobre el juego.',
         href: '/helpgame',
       },
     ],
-  },
-  {
-    label: 'Participantes',
-    href: '#',
-  },
-  {
-    label: 'Documentación',
-    href: '#',
   },
 ];
 

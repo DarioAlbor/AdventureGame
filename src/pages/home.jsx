@@ -28,11 +28,12 @@ const HomePage = () => {
       bg="gray.50"
       p={4}
     >
-      <Heading as="h1" size="2xl" mb={4}>
+      <Heading as="h1" size="2xl" mb={4} textAlign="center">
         Elige tu Propia Aventura
       </Heading>
-      <Text fontSize="xl" mb={4}>
-        <center>Tu aventura empieza aquí.</center>
+      <Text fontSize="xl" mb={4} textAlign="center">
+        Tu aventura empieza aquí. 
+        <br/>
         Aterriza en el bosque y explóralo con nosotros.
       </Text>
       <Button colorScheme="teal" size="lg" onClick={handleStartClick}>

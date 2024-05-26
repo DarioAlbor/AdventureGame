@@ -53,8 +53,8 @@ const CardStartGame = ({ onClose, onStartAdventure }) => {
               boxShadow="xl"
               onClick={(e) => e.stopPropagation()} // Evitar que se cierre al hacer clic en el contenido
             >
-              <Text fontSize="xl" mb={4}>
-                Contexto:
+              <Text fontSize="xl" fontWeight="bold" mb={4}>
+                Contexto
               </Text>
               <Text mb={4}>
                 Después de un aterrizaje de emergencia en el bosque, la tripulación de
@@ -76,8 +76,8 @@ const CardStartGame = ({ onClose, onStartAdventure }) => {
               boxShadow="xl"
               onClick={(e) => e.stopPropagation()} // Evitar que se cierre al hacer clic en el contenido
             >
-              <Text fontSize="xl" mb={4}>
-                Instrucciones:
+              <Text fontSize="xl" fontWeight="bold" mb={4}>
+                Instrucciones
               </Text>
               <Text mb={4}>
                 Imagina que sos parte de la tripulación de cabina en un vuelo que se
@@ -103,8 +103,8 @@ const CardStartGame = ({ onClose, onStartAdventure }) => {
               boxShadow="xl"
               onClick={(e) => e.stopPropagation()} // Evitar que se cierre al hacer clic en el contenido
             >
-              <Text fontSize="xl" mb={4}>
-                Objetivo:
+              <Text fontSize="xl" fontWeight="bold" mb={4}>
+                Objetivo
               </Text>
               <Text mb={4}>
                 Mantener la seguridad y el bienestar de la tripulación y los pasajeros
