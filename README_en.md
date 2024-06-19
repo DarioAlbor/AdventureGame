@@ -1,7 +1,6 @@
 # 🌲🛩️ Landing in the Forest 🌲🛩️
 
-[![Español](https://flagicons.lipis.dev/flags/4x3/ar.svg)](README.md)
-[![Inglés](https://flagicons.lipis.dev/flags/4x3/us.svg)](README_en.md)
+[Español](README.md) <img src="https://flagicons.lipis.dev/flags/4x3/ar.svg" width="20"/> / [Inglés](README_en.md) <img src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="20"/>
 
 ![Game GIF](https://media.giphy.com/media/ANiJpi8cLRlZ3FhPwC/giphy.gif)
 

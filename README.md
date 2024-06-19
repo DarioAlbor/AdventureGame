@@ -1,5 +1,7 @@
 # 🌲🛩️ Aterrizaje en el Bosque 🌲🛩️
 
+[Español](README.md) <img src="https://flagicons.lipis.dev/flags/4x3/ar.svg" width="20"/> / [Inglés](README_en.md) <img src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="20"/>
+
 ![Game GIF](https://media.giphy.com/media/ANiJpi8cLRlZ3FhPwC/giphy.gif)
 
 ## Sobre el juego
@@ -19,10 +21,10 @@ Este juego está elaborado en base a un árbol de decisiones creado por una comp
 ## ¿Cómo desplegarlo?
 
 ```bash
-git clone https://github.com/DarioAlbor/AdventureGame.git
-cd AdventureGame
-yarn install
-yarn start
+1. Clona el repositorio: `git clone https://github.com/DarioAlbor/AdventureGame.git`
+2. Navega a la carpeta del proyecto: `cd AdventureGame`
+3. Instala las dependencias: `yarn install`
+4. Inicia la aplicación: `yarn start`
 ```
 
 ## ¿Cómo probarlo?
