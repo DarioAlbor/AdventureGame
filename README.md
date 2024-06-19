@@ -1,6 +1,6 @@
 # 🌲🛩️ Aterrizaje en el Bosque 🌲🛩️
 
-![Game GIF](https://media.giphy.com/media/l1J9u3TZfpmeDLkD2/giphy.gif)
+![Game GIF](https://media.giphy.com/media/ANiJpi8cLRlZ3FhPwC/giphy.gif)
 
 ## Sobre el juego
 
@@ -30,7 +30,7 @@ yarn start
 1. Visita [Aterrizaje en el Bosque](https://aterrizajeenelbosque.netlify.app/).
 2. Presiona "Empezar" y comienza a elegir tu propia aventura.
 
-![Play Game](https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif)
+![Play Game](https://media.giphy.com/media/rDroB384ydCvK/giphy.gif)
 
 ## Contáctame
 
