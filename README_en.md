@@ -1,7 +1,7 @@
 # 🌲🛩️ Landing in the Forest 🌲🛩️
 
-[![Español](https://img.shields.io/badge/Español-🇦🇷-blue)](README.md)
-[![Inglés](https://img.shields.io/badge/Inglés-🇺🇸-blue)](README_en.md)
+[![Español](https://flagicons.lipis.dev/flags/4x3/ar.svg)](README.md)
+[![Inglés](https://flagicons.lipis.dev/flags/4x3/us.svg)](README_en.md)
 
 ![Game GIF](https://media.giphy.com/media/ANiJpi8cLRlZ3FhPwC/giphy.gif)
 
