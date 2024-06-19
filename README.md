@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# 🌲🛩️ Aterrizaje en el Bosque 🌲🛩️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Game GIF](https://media.giphy.com/media/l1J9u3TZfpmeDLkD2/giphy.gif)
 
-## Available Scripts
+## Sobre el juego
 
-In the project directory, you can run:
+**Aterrizaje en el bosque** es un juego de múltiple elección en el cual tendrás que lograr sobrevivir luego de que tu avión se estrellara en el bosque. Dependiendo de las opciones que elijas, el final del juego cambiará completamente.
 
-### `npm start`
+Este juego está elaborado en base a un árbol de decisiones creado por una compañera del curso "Azafata" y utiliza únicamente tecnologías frontend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Forest Image](https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGZvcmVzdHxlbnwwfHx8fDE2NDA0OTQ3OTk&ixlib=rb-1.2.1&q=80&w=400)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías usadas
 
-### `npm test`
+- **Frontend:** React.js
+- **UI:** Chakra UI
+- **Gestión de Paquetes:** Yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ¿Cómo desplegarlo?
 
-### `npm run build`
+```bash
+git clone https://github.com/DarioAlbor/AdventureGame.git
+cd AdventureGame
+yarn install
+yarn start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ¿Cómo probarlo?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Visita [Aterrizaje en el Bosque](https://aterrizajeenelbosque.netlify.app/).
+2. Presiona "Empezar" y comienza a elegir tu propia aventura.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Play Game](https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif)
 
-### `npm run eject`
+## Contáctame
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Estaría muy agradecido si dejas una "estrella" ⭐ en el proyecto si te ha gustado.  
+También puedes contactarme mediante mi [portafolio](https://darioalbor.dev.ar/), donde están todos los enlaces.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Contact Image](https://images.unsplash.com/photo-1519681393784-d120267933ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNvbnRhY3R8ZW58MHx8fHwxNjQwNDk0ODAw&ixlib=rb-1.2.1&q=80&w=400)
