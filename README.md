@@ -23,6 +23,7 @@ git clone https://github.com/DarioAlbor/AdventureGame.git
 cd AdventureGame
 yarn install
 yarn start
+```
 
 ## ¿Cómo probarlo?
 
@@ -33,7 +34,7 @@ yarn start
 
 ## Contáctame
 
-Estaría muy agradecido si dejas una "estrella" ⭐ en el proyecto si te ha gustado.  
+Estaría muy agradecido si dejas una ⭐ en el proyecto si te ha gustado.  
 También puedes contactarme mediante mi [portafolio](https://darioalbor.dev.ar/), donde están todos los enlaces.
 
 ![Contact Image](https://images.unsplash.com/photo-1519681393784-d120267933ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNvbnRhY3R8ZW58MHx8fHwxNjQwNDk0ODAw&ixlib=rb-1.2.1&q=80&w=400)
