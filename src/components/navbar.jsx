@@ -81,7 +81,7 @@ const Navbar = () => {
             _hover={{
               bg: 'pink.300',
             }}
-            onClick={handleStartGameClick} // Abre el componente CardStartGame al hacer clic
+            onClick={handleStartGameClick}
           >
             EMPEZAR JUEGO
           </Button>
@@ -94,7 +94,7 @@ const Navbar = () => {
             _hover={{
               bg: 'pink.300',
             }}
-            onClick={handleHelpGameClick} // Abre el componente HelpGame al hacer clic
+            onClick={handleHelpGameClick}
           >
             AYUDA
           </Button>

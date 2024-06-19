@@ -6,11 +6,11 @@ import {
 } from '@chakra-ui/react'
 
 export default function SmallWithSocial() {
-  const currentYear = new Date().getFullYear(); // Obtener el año actual
+  const currentYear = new Date().getFullYear(); // año actual
 
   return (
     <Box
-      bg={'gray.600'} // Fondo gris oscuro
+      bg={'gray.600'} // gris oscuro
       color={useColorModeValue('gray.50', 'gray.200')}
       py={4}>
       <Container

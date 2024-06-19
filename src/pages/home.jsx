@@ -10,12 +10,12 @@ const HomePage = () => {
   };
 
   const startAdventure = () => {
-    closeModal(); // Cerrar el modal actual al iniciar la aventura
+    closeModal(); // cerrar cualquier modal al presionar "Empezar" o iniciar aventura
   };
 
   const handleStartClick = () => {
-    setShowCard(false); // Agregamos esto para restablecer showCard
-    setShowCard(true); // Establecer showCard a true al hacer clic en "Empezar"
+    setShowCard(false); // restablece showCard
+    setShowCard(true); // showCard a true al presionar "Empezar"
   };
 
   return (

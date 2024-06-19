@@ -7,7 +7,7 @@ const CardHelpGame = () => {
 
   const handleCloseHelp = () => {
     navigate('/');
-    window.location.reload(); // Recargar la página al cerrar el componente
+    window.location.reload(); // recargar página al cerrar el componente (para reiniciar todos los estados)
   };
 
   return (
@@ -17,25 +17,25 @@ const CardHelpGame = () => {
       left={0}
       bottom={0}
       right={0}
-      bg="rgba(0, 0, 0, 0.8)" // Fondo oscuro con opacidad
+      bg="rgba(0, 0, 0, 0.8)" // oscuro con opacidad
       display="flex"
       justifyContent="center"
       alignItems="center"
-      zIndex="modal" // Para estar por encima de otros elementos
-      onClick={handleCloseHelp} // Cerrar al hacer clic en el fondo gris
+      zIndex="modal" // encima de otros elementos
+      onClick={handleCloseHelp} // se cierra al hacer clic en el fondo gris
     >
       <Box
         p={6}
-        bg="white" // Fondo blanco
+        bg="white"
         color="gray.800"
         borderRadius="md"
         border="1px solid"
         borderColor="gray.200"
-        maxW="90vw" // Ancho máximo del 90% del viewport
-        maxH="90vh" // Alto máximo del 90% del viewport
-        overflowY="auto" // Añadido para permitir desplazamiento vertical si el contenido excede el tamaño del recuadro
-        textAlign="center" // Centrar el contenido del cuadro
-        onClick={(e) => e.stopPropagation()} // Evitar el cierre al hacer clic dentro del recuadro
+        maxW="90vw" 
+        maxH="90vh" 
+        overflowY="auto" //  para permitir desplazamiento vertical si el contenido excede el tamaño del recuadro
+        textAlign="center"
+        onClick={(e) => e.stopPropagation()} 
       >
         <CloseButton
           position="absolute"
@@ -52,7 +52,7 @@ const CardHelpGame = () => {
           Después de cada decisión, se presentará la siguiente situación basada en la decisión tomada anteriormente.<br/>
           Trabaja en equipo para tomar decisiones sabias y garantizar la supervivencia de todos los miembros de la tripulación y los pasajeros.
         </Text>
-        <Box mt={4}> {/* Contenedor para centrar el botón */}
+        <Box mt={4}>
           <Button onClick={handleCloseHelp} colorScheme="blue">
             Cerrar
           </Button>
